@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Client Build Output
+client/dist/
+client/build/
+
+# Server Logs
+logs/
+*.log
+*.log.*
+
+# Dependency Lock Files (if using Yarn)
+yarn.lock
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# MongoDB Local Data (if running locally)
+data/
+mongod.lock

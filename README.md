@@ -1,16 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19940598&assignment_repo_type=AssignmentRepo)
-# MERN Stack Integration Assignment
+# MERN-Blog
+Full-stack blog built with MongoDB, Express, React (Vite + Tailwind) & Node.
 
-This assignment focuses on building a full-stack MERN (MongoDB, Express.js, React.js, Node.js) application that demonstrates seamless integration between front-end and back-end components.
-
-## Assignment Overview
-
-You will build a blog application with the following features:
-1. RESTful API with Express.js and MongoDB
-2. React front-end with component architecture
-3. Full CRUD functionality for blog posts
-4. User authentication and authorization
-5. Advanced features like image uploads and comments
+## Quick start
+# 1. Start MongoDB locally or set MONGO_URI in /server/.env
+# 2. Server
+cd server && npm i && npm run dev
+# 3. Client (new terminal)
+cd client && npm i && npm run dev
 
 ## Project Structure
 
